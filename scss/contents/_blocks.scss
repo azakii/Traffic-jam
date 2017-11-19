@@ -1198,4 +1198,14 @@ h1 {color: $color-white;font-size: 2.438em; padding: 0; margin: 0;font-weight: 7
     background-color: rgba(0,0,0,.7);
     
 }
-
+.flex {display: flex; }
+.statis:nth-of-type(odd) {
+    justify-content: space-between;
+    display: inline-block;
+    .equalH {float: left}
+}
+.statis:nth-of-type(even) {
+    justify-content: space-between;
+    display: inline-block;
+    .equalH {float: right}
+}

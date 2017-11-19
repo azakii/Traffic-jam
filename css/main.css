@@ -7710,6 +7710,26 @@ h2 {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.flex {
+  display: flex;
+}
+
+.statis:nth-of-type(odd) {
+  justify-content: space-between;
+  display: inline-block;
+}
+.statis:nth-of-type(odd) .equalH {
+  float: left;
+}
+
+.statis:nth-of-type(even) {
+  justify-content: space-between;
+  display: inline-block;
+}
+.statis:nth-of-type(even) .equalH {
+  float: right;
+}
+
 footer {
   background: #000a1f;
   padding: 2em 0;
