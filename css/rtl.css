@@ -539,8 +539,18 @@ header .topBarLinks ul li {
     float: none;
   }
 
+  header .navbar-fixed-top {
+    border: 0;
+    background-color: black;
+    margin-bottom: 0;
+    border-radius: 0;
+    height: auto;
+    position: relative;
+    padding: 10px;
+  }
+
   header .navbar-default .nav.navbar-nav {
-    margin-right: 10.4%;
+    margin-right: 0%;
   }
 
   .home-articles.events .col-md-4 {

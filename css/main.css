@@ -5064,15 +5064,16 @@ h2 {
 #slide1 {
   position: relative;
   height: 90vh;
+  background: #488d23 url(../img/cover.jpg) no-repeat;
+  background-size: cover;
 }
 
 .first-slide {
   height: 100%;
   width: 100%;
-  background-color: #edc74c;
+  background-color: #488d23;
   background-repeat: repeat-x;
   background-position: 0 100%;
-  background-image: url(../img/slide1/clouds.png);
   position: absolute;
   top: 0;
   left: 0;
@@ -5095,6 +5096,7 @@ h2 {
 
 #hello h1, #hello h3, #hello h4 {
   font-weight: 700;
+  color: white;
 }
 
 #hello h3 {
@@ -5218,7 +5220,7 @@ h2 {
 }
 
 #slide2 {
-  background: url(../img/slide1/wallpaper-pattern.png) #ce5f3f;
+  background: #ce5f3f;
   height: auto;
   max-height: auto;
 }
@@ -6327,7 +6329,7 @@ h2 {
 /* home accordion */
 .home-accordion {
   background: url(../img/myicon/home-bg.jpg) no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 395px;
   margin-top: 1rem;
 }
@@ -7730,6 +7732,20 @@ h2 {
   float: right;
 }
 
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .tabs-block .well li.active a {
+    display: none;
+  }
+
+  #hello h1, #hello h3, #hello h4 {
+    font-size: 1.8rem;
+  }
+
+  .button-effect {
+    display: none;
+  }
+}
 footer {
   background: #000a1f;
   padding: 2em 0;

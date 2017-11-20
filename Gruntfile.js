@@ -14,7 +14,8 @@ module.exports = function(grunt) {
 		    },
 		    files: {
 		      'css/main.css': 'scss/main.scss',
-              'css/rtl.css': 'scss/rtl.scss'
+              'css/rtl.css': 'scss/rtl.scss',
+              'css/responsive.css': 'scss/responsive.scss'
 		    }
 		  },
         dist: {

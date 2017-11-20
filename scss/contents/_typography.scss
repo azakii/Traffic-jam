@@ -1304,14 +1304,16 @@ opacity:1
 #slide1 {
 	position: relative;
      height: 90vh;   
+    background:#488d23 url(../img/cover.jpg) no-repeat;
+    background-size: cover;
 }
 .first-slide {
 	height: 100%;
 	width: 100%;
-	background-color: #edc74c;
+	background-color: #488d23;//#edc74c
 	background-repeat: repeat-x;
 	background-position: 0 100%;
-	background-image: url(../img/slide1/clouds.png);
+	//background-image: url(../img/slide1/clouds.png);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1331,6 +1333,7 @@ opacity:1
  }
 #hello h1, #hello h3, #hello h4 {
 	font-weight: 700;
+    color: white;
 }
 #hello h3 {
 	font-size: 46px
@@ -1439,7 +1442,7 @@ opacity:1
 	width: 100%
 }
 #slide2 {
-	background: url(../img/slide1/wallpaper-pattern.png) #ce5f3f;
+	background:#ce5f3f; //url(../img/slide1/wallpaper-pattern.png)
 	height: auto;
 	max-height: auto
 }
